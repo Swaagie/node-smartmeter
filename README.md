@@ -1,2 +1,3 @@
 # smartmeter
-Smartmeter module to read values from serialport
+
+Read values from a smart energy meter in Node.JS 
