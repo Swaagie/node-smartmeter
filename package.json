@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/Swaagie/node-smartmeter#readme",
   "dependencies": {
-    "serialport": "^7.0.2"
+    "serialport": "^7.1.4"
   },
   "devDependencies": {
     "assume": "^2.1.0",
-    "mocha": "^5.2.0",
-    "nyc": "^13.0.1",
-    "sinon": "^6.3.5"
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "sinon": "^7.2.7"
   }
 }
