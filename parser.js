@@ -19,6 +19,7 @@ class Parser extends EventEmitter {
   parse(signal) {
     signal = signal.split('\r\n').filter(d => this._identifier.test(d)).map(d => d.trim());
 
+    // SHOULD PARSE UNITS
     this.emit('parsed', Date.now(), {
       lowTariffReceived: this.extract(signal, 3),
       highTariffReceived: this.extract(signal, 4),
